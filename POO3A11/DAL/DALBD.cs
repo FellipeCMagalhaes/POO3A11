@@ -21,7 +21,7 @@ namespace POO3A11.DAL
             }
             catch (MySqlException e)
             {
-                throw new Exception("Problemas na conexão com o banco de dados. Erro: " + e.Message + " " + string_conexao);
+                throw new Exception("Problemas na conexão com o banco de dados. Erro: " + e.Message + "  " + string_conexao);
 
             }
         }
